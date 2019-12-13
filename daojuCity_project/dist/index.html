@@ -1,0 +1,952 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>腾讯游戏道聚城-集道具聚欢乐</title>
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/index.css">
+        <script src="js/require.js" async = "true" defer data-main = "js/main"></script>
+    </head>
+    <body>
+        <!-- main_nav -->
+        <div class="main_nav_box">
+            <div class="main_nav">
+                <div class="main_nav_left">
+                    <a href="">
+                        <p></p>
+                        手机版
+                    </a>
+                    <i>|</i>
+                    <a href="">Q币充值</a>
+                </div>
+                <div class="main_nav_right">
+                    <a href="" class="game_menu">游戏导航</a>
+                    <i>|</i>
+                    <a href="">帮助中心</a>
+                    <i>|</i>
+                    <a href="">个人中心</a>
+                    <i>|</i>
+                    <a href="">我的订单</a>
+                    <i>|</i>
+                    <div class="unlogin">
+                        您还未登录，请<a href="">登录</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- search -->
+        <div class="search_box">
+            <div class="search">
+                <a href="" class="logo"></a>
+                <div class="search_bar">
+                    <div class="s_text">
+                        <div class="s_menu">
+                            <a href="" class="all_game" id="all_game">
+                                <b></b>
+                                <span id="choose_game">选择游戏</span>
+                            </a>
+                            <div id="choose_sub">
+                                <!-- 假数据 -->
+                                <!-- <dl>
+                                    <dt>网页游戏：</dt>
+                                    <dd class="clearfn">
+                                        <a href="">部落守卫(网页版)</a>
+                                        <i>|</i>
+                                        <a href="">捕鱼达人3D</a>
+                                        <i>|</i>
+                                        <a href="">英魂之刃</a>
+                                        <i>|</i>
+                                        <a href="">宠物大乐斗</a>
+                                        <i>|</i>
+                                        <a href="">火影忍者Online</a>
+                                        <i>|</i>
+                                        <a href="">烽火战国</a>
+                                    </dd>
+                                </dl> -->
+                            </div>
+                        </div>
+                        <input type="text" placeholder="请选择游戏搜索道具">
+                    </div>
+                    <button class="search_btn"></button>
+                </div>
+                <div class="search_bg">
+                    <a href=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- nav -->
+        <div class="nav_box">
+            <div class="nav">
+                <div class="game_classify">
+                    <b></b>
+                    所有游戏分类
+                </div>
+                <ul class="navBtn">
+                    <li>
+                        <a href="">首页</a>
+                    </li>
+                    <li>
+                        <a href="">活动中心</a>
+                    </li>
+                    <li>
+                        <a href="">聚诚品</a>
+                        <div class="new"></div>
+                    </li>
+                    <li>
+                        <a href="">手游中心</a>
+                    </li>
+                    <li>
+                        <a href="">聚豆商城</a>
+                    </li>
+                    <li>
+                        <a href="">个人中心</a>
+                    </li>
+                </ul>
+                <div class="buy_car_box">
+                    <a href="" class="b_car">
+                        <i id="goodsNum">0</i>
+                        <b></b>
+                        购物车
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- banner -->
+        <div class="banner_box">
+            <div class="banner_nav">
+                <!-- 假数据 -->
+                <!-- <dl>
+                    <dt>
+                        <b></b>
+                        热门游戏
+                        <i></i>
+                    </dt>
+                    <dd>
+                        <div class="inner">
+                            <div class="dev">
+                                <a href="">部落守卫战(网页版)</a>
+                                <a href="">部落守卫战(网页版)</a>
+                                <a href="">部落守卫战(网页版)</a>
+                                <a href="">部落守卫战(网页版)</a>
+                                <a href="">部落守卫战(网页版)</a>
+                            </div>
+                        </div>
+                    </dd>
+                </dl> -->
+            </div>
+            <div class="slide" id="slide">
+                <div class="pic">
+                    <div class="dev">
+                        <a href="">
+                            <img src="images/pic1.jpg" alt="">
+                        </a>
+                        <s></s>
+                        <p>新英雄厄斐琉斯</p>
+                    </div>
+                    <div class="dev">
+                        <a href="">
+                            <img src="images/pic2.jpg" alt="">
+                        </a>
+                        <s></s>
+                        <p>CF12月王者夺宝</p>
+                    </div>
+                    <div class="dev">
+                        <a href="">
+                            <img src="images/pic3.jpg" alt="">
+                        </a>
+                        <s></s>
+                        <p>英雄联盟毛绒战队来袭</p>
+                    </div>
+                    <div class="dev">
+                        <a href="">
+                            <img src="images/pic4.jpg" alt="">
+                        </a>
+                        <s></s>
+                        <p>御龙在天冬日宝藏</p>
+                    </div>
+                    <div class="dev">
+                        <a href="">
+                            <img src="images/pic5.jpg" alt="">
+                        </a>
+                        <s></s>
+                        <p>天刀青龙秘宝</p>
+                    </div>
+                    <div class="dev">
+                        <a href="">
+                            <img src="images/pic1.jpg" alt="">
+                        </a>
+                        <s></s>
+                        <p>新英雄厄斐琉斯</p>
+                    </div>
+                </div>
+                <div class="dot">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+            <div class="info">
+                <div class="person">
+                    <div class="person_index">
+                        <div class="welcome">
+                            <div class="user_img">
+                                <img src="images/fox.png" alt="">
+                            </div>
+                            <p class="gray">
+                                您还未登录哦，
+                                <a href="#">立即登录</a>
+                                购买超值商品！
+                            </p>
+                        </div>
+                        <div class="some_game">
+                            <h5>推荐游戏</h5>
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <img src="images/cf.jpg" alt="">
+                                        <span>穿越火线</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="images/lol.jpg" alt="">
+                                        <span>英雄联盟</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <img src="images/bns.jpg" alt="">
+                                        <span>剑灵</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="note_list">
+                    <div>
+                        <h5>公告</h5>
+                        <a href="">更多</a>
+                    </div>
+                    <ul>
+                        <li>
+                            <a href="">天刀青龙秘宝活动无法拉取角色信息公告</a>
+                            <i>12/09</i>
+                        </li>
+                        <li>
+                            <a href="">LOL商城购买异常公告</a>
+                            <i>11/22</i>
+                        </li>
+                        <li>
+                            <a href="">端游抽奖嘉年华活动盛大启幕——你许愿，我买单</a>
+                            <i>11/08</i>
+                        </li>
+                        <li>
+                            <a href="">道聚城11.11红包雨活动概率公布</a>
+                            <i>11/07</i>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- content_zone1 -->
+        <div class="zone1_box">
+            <div class="hot_sell">
+                <div class="sell_title">
+                    <b></b>
+                    <em>热卖推荐</em>
+                </div>
+                <div class="items_bg">
+                    <!-- 假数据 -->
+                    <!-- <dl>
+                        <dt>
+                           <a href="">
+                               <img src="images/hot1.jpg" alt="">
+                           </a> 
+                        </dt>
+                        <dd>
+                            <p>
+                               <b>[英雄联盟]</b>
+                               <a class="click" href="">黑夜使者 厄斐琉斯 炫彩礼包</a>
+                            </p>
+                            <p>
+                                QB价：
+                                <i>195.20 QB</i>
+                            </p>
+                            <p>热卖推荐</p>
+                            <a class="btn_stream" href="">立即抢购</a>
+                        </dd>
+                    </dl> -->
+                </div>
+            </div>
+            <div class="eve_surprise">
+                <div class="eve_title">
+                    <b></b>
+                    <em>每日惊喜</em>
+                </div>
+                <div class="items_eve">
+                    <dl>
+                        <dt>
+                            <a href="">
+                                <img src="images/bg_sp.jpg" alt="">
+                            </a>
+                        </dt>
+                        <dd>
+                            <p class="line_1">
+                                <b>[CODOL使命召唤Online]</b>
+                                背包5（永久）
+                            </p>
+                            <p class="red">
+                                秒杀价：
+                                <b>59.80QB</b>
+                            </p>
+                            <p class="time_count">
+                                <span class="left_time">
+                                    <em class="num_bg">2</em>天
+                                    <em class="num_bg">14</em>时
+                                    <em class="num_bg">33</em>分
+                                    <em class="num_bg">32</em>秒
+                                </span>
+                            </p>
+                            <a class="sp_btn" href="">查看详情</a>
+                        </dd>
+                        <dd class="bg_sp">独家秒杀</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <!-- content_zone2 -->
+        <div class="zone2_box">
+            <div class="favorite">
+                <div class="favorite_title">
+                    <b></b>
+                    <em>猜你喜欢</em>
+                    <span>|</span>
+                    <a href="#">换一换→</a>
+                </div>
+                <div class="favorite_bg">
+                    <div class="item_bg">
+                        <!-- 假数据 -->
+                        <!-- <dl>
+                            <dt>
+                                <a href="">
+                                    <img src="images/fav1.jpg" alt="">
+                                </a>
+                            </dt>
+                            <dd>
+                                <p class="item_info">
+                                    <a href="">
+                                        <b>[英雄联盟]</b>
+                                        星之守护者 索拉卡
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    商城价：
+                                    <b>79.00 QB</b>
+                                </p>
+                            </dd>
+                        </dl> -->
+                    </div>
+                </div>
+            </div>
+            <div class="sign_up">
+                <div class="sign_title">
+                    <b></b>
+                    <em>每日签到</em>
+                </div>
+                <div class="sign_bg">
+                    <a href="">
+                        <b></b>
+                        我要签到
+                    </a>
+                    <div class="tip">
+                        <p>今日签到可获得5个聚豆</p>
+                        <p>下载手机道聚城最高可获得40聚豆</p>
+                    </div>
+                </div>
+                <div class="app_box">
+                    <img src="images/code.png" alt="">
+                    <p class="code_tip">扫码进入掌上道聚城每日签到</p>
+                </div>
+            </div>
+        </div>
+        <!-- content_zone3 -->
+        <div class="zone3_box">
+            <div class="event_title">
+                <a href="">更多→</a>
+                <b></b>
+                <em>精彩活动</em>
+            </div>
+            <div class="event_list">
+                <ul>
+                    <!-- 假数据 -->
+                    <!-- <li>
+                        <a href="">
+                            <img src="images/event1.jpg" alt="">
+                        </a>
+                    </li> -->
+                </ul>
+            </div>
+        </div>
+        <!-- content_zone4 -->
+        <div class="zone4_box">
+            <div class="lol_title">
+                <a href="">
+                    更多→
+                </a>
+                <b></b>
+                <em>英雄联盟专区</em>
+            </div>
+            <div class="lol_bg">
+                <div class="lol_pic">
+                    <a href="">
+                        <img src="images/index_lol.jpg" alt="">
+                    </a>
+                </div>
+                <div class="lol_list">
+                    <div class="list_top">
+                        <!-- 假数据 -->
+                        <!-- <li>
+                            <a href="">
+                               <span class="name">
+                                    <strong>弗雷尔卓德 部族之战 棋盘礼包</strong>
+                               </span>
+                               <span class="red">
+                                    微信价：
+                                    <b>160.92 元</b>
+                               </span>
+                               <span>Q币价：165.90 QB</span>
+                               <img src="images/lols1.jpg" alt="">
+                            </a>
+                        </li> -->
+                    </div>
+                    <div class="list_bot">
+                        <!-- 假数据 -->
+                        <!-- <li>
+                            <a href="">
+                                <img src="images/lols5.jpg" alt="">
+                            </a>
+                            <div class="txt">
+                                <p>
+                                    <a href="">黑夜使者 厄婓琉斯 辉夜版</a>
+                                </p>
+                                <p class="red">
+                                    微信价:
+                                    <b>115.62元</b>
+                                </p>
+                                <p>Q币价:119.20QB</p>
+                            </div>
+                        </li> -->
+                    </div>
+                </div>
+                <div class="list_rank">
+                    <dl class="rank_wall">
+                        <dd class="top">
+                            <b>排行01</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        宗师级钓鱼训练师 贾克斯
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>10.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank1.jpg" alt="">
+                            </a>
+                        </dd>
+                        <dd>
+                            <b>02</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        西部牛仔 亚索
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>69.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank2.jpg" alt="">
+                            </a>
+                        </dd>
+                        <dd>
+                            <b>03</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        灵魂守卫 乌迪尔
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>199.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank3.jpg" alt="">
+                            </a>
+                        </dd>
+                        <dd>
+                            <b>04</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        黑夜使者 亚索
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>99.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank4.jpg" alt="">
+                            </a>
+                        </dd>
+                        <dd>
+                            <b>05</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        未来战士 凯特琳
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>99.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank5.jpg" alt="">
+                            </a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <!-- content_zone4_2 -->
+        <div class="zone4_box">
+            <div class="lol_title">
+                <a href="">
+                    更多→
+                </a>
+                <b></b>
+                <em>英雄联盟专区</em>
+            </div>
+            <div class="lol_bg">
+                <div class="lol_pic">
+                    <a href="">
+                        <img src="images/index_lol.jpg" alt="">
+                    </a>
+                </div>
+                <div class="lol_list">
+                    <div class="list_top">
+                        <!-- 假数据 -->
+                        <!-- <li>
+                            <a href="">
+                               <span class="name">
+                                    <strong>弗雷尔卓德 部族之战 棋盘礼包</strong>
+                               </span>
+                               <span class="red">
+                                    微信价：
+                                    <b>160.92 元</b>
+                               </span>
+                               <span>Q币价：165.90 QB</span>
+                               <img src="images/lols1.jpg" alt="">
+                            </a>
+                        </li> -->
+                    </div>
+                    <div class="list_bot">
+                        <!-- 假数据 -->
+                        <!-- <li>
+                            <a href="">
+                                <img src="images/lols5.jpg" alt="">
+                            </a>
+                            <div class="txt">
+                                <p>
+                                    <a href="">黑夜使者 厄婓琉斯 辉夜版</a>
+                                </p>
+                                <p class="red">
+                                    微信价:
+                                    <b>115.62元</b>
+                                </p>
+                                <p>Q币价:119.20QB</p>
+                            </div>
+                        </li> -->
+                    </div>
+                </div>
+                <div class="list_rank">
+                    <dl class="rank_wall">
+                        <dd class="top">
+                            <b>排行01</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        宗师级钓鱼训练师 贾克斯
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>10.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank1.jpg" alt="">
+                            </a>
+                        </dd>
+                        <dd>
+                            <b>02</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        西部牛仔 亚索
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>69.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank2.jpg" alt="">
+                            </a>
+                        </dd>
+                        <dd>
+                            <b>03</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        灵魂守卫 乌迪尔
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>199.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank3.jpg" alt="">
+                            </a>
+                        </dd>
+                        <dd>
+                            <b>04</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        黑夜使者 亚索
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>99.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank4.jpg" alt="">
+                            </a>
+                        </dd>
+                        <dd>
+                            <b>05</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        未来战士 凯特琳
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>99.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank5.jpg" alt="">
+                            </a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <!-- content_zone4_3 -->
+        <div class="zone4_box">
+            <div class="lol_title">
+                <a href="">
+                    更多→
+                </a>
+                <b></b>
+                <em>英雄联盟专区</em>
+            </div>
+            <div class="lol_bg">
+                <div class="lol_pic">
+                    <a href="">
+                        <img src="images/index_lol.jpg" alt="">
+                    </a>
+                </div>
+                <div class="lol_list">
+                    <div class="list_top">
+                        <!-- 假数据 -->
+                        <!-- <li>
+                            <a href="">
+                               <span class="name">
+                                    <strong>弗雷尔卓德 部族之战 棋盘礼包</strong>
+                               </span>
+                               <span class="red">
+                                    微信价：
+                                    <b>160.92 元</b>
+                               </span>
+                               <span>Q币价：165.90 QB</span>
+                               <img src="images/lols1.jpg" alt="">
+                            </a>
+                        </li> -->
+                    </div>
+                    <div class="list_bot">
+                        <!-- 假数据 -->
+                        <!-- <li>
+                            <a href="">
+                                <img src="images/lols5.jpg" alt="">
+                            </a>
+                            <div class="txt">
+                                <p>
+                                    <a href="">黑夜使者 厄婓琉斯 辉夜版</a>
+                                </p>
+                                <p class="red">
+                                    微信价:
+                                    <b>115.62元</b>
+                                </p>
+                                <p>Q币价:119.20QB</p>
+                            </div>
+                        </li> -->
+                    </div>
+                </div>
+                <div class="list_rank">
+                    <dl class="rank_wall">
+                        <dd class="top">
+                            <b>排行01</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        宗师级钓鱼训练师 贾克斯
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>10.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank1.jpg" alt="">
+                            </a>
+                        </dd>
+                        <dd>
+                            <b>02</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        西部牛仔 亚索
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>69.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank2.jpg" alt="">
+                            </a>
+                        </dd>
+                        <dd>
+                            <b>03</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        灵魂守卫 乌迪尔
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>199.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank3.jpg" alt="">
+                            </a>
+                        </dd>
+                        <dd>
+                            <b>04</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        黑夜使者 亚索
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>99.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank4.jpg" alt="">
+                            </a>
+                        </dd>
+                        <dd>
+                            <b>05</b>
+                            <div class="txt">
+                                <p>
+                                    <a href="">
+                                        未来战士 凯特琳
+                                    </a>
+                                </p>
+                                <p class="red">
+                                    <i>99.00 QB</i>
+                                </p>
+                            </div>
+                            <a href="">
+                                <img src="images/rank5.jpg" alt="">
+                            </a>
+                        </dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <!-- content_zone5 -->
+        <div class="zone5_box">
+            <ul class="act_bot">
+                <li>
+                    <a href="">
+                        <img src="images/bot1.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <ul class="act_bot">
+                <li>
+                    <a href="">
+                        <img src="images/bot2.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+            <ul class="act_bot">
+                <li>
+                    <a href="">
+                        <img src="images/bot3.jpg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- footer -->
+        <div class="foot_box">
+            <div class="qa_box">
+                <div class="qa">
+                    <h4 class="qa_title">
+                        <s></s>
+                        我是新手
+                    </h4>
+                    <ul>
+                        <li>
+                            <a href="">什么是道聚城</a>
+                        </li>
+                        <li>
+                            <a href="">如何购买</a>
+                        </li>
+                        <li>
+                            <a href="">如何赠送</a>
+                        </li>
+                        <li>
+                            <a href="">如何获取聚豆</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="qa">
+                    <h4 class="qa_title">
+                        <s></s>
+                        个人中心
+                    </h4>
+                    <ul>
+                        <li>
+                            <a href="">发货时间</a>
+                        </li>
+                        <li>
+                            <a href="">如何领取</a>
+                        </li>
+                        <li>
+                            <a href="">补发规则</a>
+                        </li>
+                        <li>
+                            <a href="">Vip价定义</a>
+                        </li>
+                        <li>
+                            <a href="">道具状态定义</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="qa">
+                    <h4 class="qa_title">
+                        <s></s>
+                        支付方式
+                    </h4>
+                    <ul>
+                        <li>
+                            <a href="">支付方式</a>
+                        </li>
+                        <li>
+                            <a href="">购物点支付</a>
+                        </li>
+                        <li>
+                            <a href="">如何充值</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="qa">
+                    <h4 class="qa_title">
+                        <s></s>
+                        腾讯在线服务
+                    </h4>
+                    <ul>
+                        <li>
+                            <a href="">腾讯官方在线服务</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="last">
+                    <ul>
+                        <li>
+                            <div class="foot_code">
+                                <img src="images/footcode1.png" alt="">
+                            </div>
+                            <p class="code_name">
+                                掌上道聚城
+                            </p>
+                        </li>
+                        <li>
+                            <div class="foot_code">
+                                <img src="images/footcode2.png" alt="">
+                            </div>
+                            <p class="code_name">
+                                道聚城公众号
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot_wrap">
+                <div class="foot_ied">
+                    <div class="wrap_ied">
+                        <p>
+                            <a href="">腾讯互动娱乐</a>|
+                            <a href="">服务条款</a>|
+                            <a href="">腾讯游戏隐私保护指引</a>|
+                            <a href="">腾讯游戏儿童隐私保护指引</a>|
+                            <a href="">广告服务</a>|
+                            <a href="">腾讯游戏招聘</a>|
+                            <a href="">腾讯游戏客服</a>|
+                            <a href="">游戏地图</a>|
+                            <a href="">成长守护平台</a>|
+                            <a href="">商务合作</a>|
+                            <a href="">网站导航</a>
+                        </p>
+                        <p>
+                            COPYRIGHT © 1998 – 2019 TENCENT. ALL RIGHTS RESERVED.
+                        </p>
+                        <p>
+                            <a href="">腾讯公司 版权所有</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

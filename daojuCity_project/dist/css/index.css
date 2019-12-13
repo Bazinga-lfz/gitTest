@@ -1,0 +1,1155 @@
+body {
+  background: #f3f4f6 url(../images/wrap_bg.png) no-repeat 0 185px; }
+
+.main_nav_box {
+  height: 30px;
+  background: #f9f9f9; }
+
+.main_nav_box .main_nav {
+  width: 1190px;
+  height: 30px;
+  background: #f9f9f9;
+  margin: 0 auto; }
+
+.main_nav_box .main_nav i {
+  float: left;
+  margin: 0 10px;
+  line-height: 30px;
+  color: #e7e7e7; }
+
+.main_nav_box .main_nav .main_nav_left {
+  width: 120px;
+  height: 30px;
+  float: left; }
+
+.main_nav_box .main_nav .main_nav_left a:first-of-type {
+  width: 50px;
+  height: 30px;
+  float: left;
+  line-height: 30px;
+  color: #666; }
+  .main_nav_box .main_nav .main_nav_left a:first-of-type:first-of-type:hover {
+    color: red;
+    text-decoration: underline; }
+
+.main_nav_box .main_nav .main_nav_left a:first-of-type p {
+  float: left;
+  width: 11px;
+  height: 16px;
+  background: url(../images/icon.png) no-repeat;
+  background-position: 0 0;
+  margin: 7px 3px 0 0; }
+
+.main_nav_box .main_nav .main_nav_left a:last-of-type {
+  float: left;
+  width: 46px;
+  height: 30px;
+  line-height: 30px;
+  color: #666; }
+  .main_nav_box .main_nav .main_nav_left a:last-of-type:last-of-type:hover {
+    color: red;
+    text-decoration: underline; }
+
+.main_nav_box .main_nav .main_nav_right {
+  float: right;
+  width: 600px;
+  height: 30px; }
+  .main_nav_box .main_nav .main_nav_right i {
+    float: right; }
+  .main_nav_box .main_nav .main_nav_right a {
+    float: right;
+    color: #666;
+    line-height: 30px; }
+  .main_nav_box .main_nav .main_nav_right .unlogin {
+    float: right;
+    color: #666;
+    line-height: 30px; }
+  .main_nav_box .main_nav .main_nav_right a:hover {
+    color: red;
+    text-decoration: underline; }
+
+.main_nav_box .main_nav .main_nav_right .game_menu {
+  float: right;
+  width: 72px;
+  height: 21px;
+  line-height: 21px;
+  margin-top: 5px;
+  padding-left: 8px;
+  background: url(../images/icon.png) no-repeat;
+  background-position: -20px -334px; }
+
+.search_box {
+  padding: 10px 0 20px;
+  background: #fff; }
+  .search_box .search {
+    width: 1190px;
+    height: 78px;
+    margin: 0 auto; }
+    .search_box .search .logo {
+      float: left;
+      width: 320px;
+      height: 65px;
+      margin-top: 5px;
+      background: url(../images/bg.png) no-repeat; }
+    .search_box .search .search_bar {
+      margin-top: 10px;
+      margin-left: 110px;
+      float: left;
+      width: 490px;
+      height: 67px; }
+      .search_box .search .search_bar .s_text {
+        border: 2px solid #f74a4a;
+        width: 450px;
+        height: 34px;
+        float: left;
+        border-right: 0; }
+        .search_box .search .search_bar .s_text .s_menu {
+          width: 117px;
+          height: 34px;
+          float: left;
+          position: relative;
+          z-index: 10; }
+          .search_box .search .search_bar .s_text .s_menu .all_game {
+            float: left;
+            display: block;
+            width: 115px;
+            height: 30px;
+            border-right: 1px solid #efefef;
+            border-bottom: 2px solid #efefef;
+            text-align: center;
+            line-height: 30px;
+            color: #333;
+            margin-top: 1px;
+            margin-left: 1px; }
+            .search_box .search .search_bar .s_text .s_menu .all_game b {
+              float: right;
+              width: 10px;
+              height: 6px;
+              background: url(../images/icon.png) no-repeat;
+              background-position: 0 -25px;
+              margin: 15px 10px 0 0; }
+          .search_box .search .search_bar .s_text .s_menu #choose_sub {
+            width: 395px;
+            height: 336px;
+            position: absolute;
+            border: 1px solid #e5e5e5;
+            top: 35px;
+            z-index: 10;
+            padding: 0 10px;
+            background: #fff;
+            color: #3a3f4a;
+            display: none; }
+            .search_box .search .search_bar .s_text .s_menu #choose_sub dl {
+              border-top: 1px solid #e5e5e5;
+              padding: 10px;
+              margin-top: -1px;
+              line-height: 26px; }
+              .search_box .search .search_bar .s_text .s_menu #choose_sub dl dt {
+                font-weight: 900;
+                float: left; }
+              .search_box .search .search_bar .s_text .s_menu #choose_sub dl dd {
+                margin-left: 70px; }
+                .search_box .search .search_bar .s_text .s_menu #choose_sub dl dd a {
+                  float: left;
+                  display: block;
+                  white-space: nowrap;
+                  color: #3a3f4a; }
+                .search_box .search .search_bar .s_text .s_menu #choose_sub dl dd i {
+                  margin: 0 5px;
+                  float: left;
+                  display: block;
+                  white-space: nowrap; }
+        .search_box .search .search_bar .s_text input {
+          float: left;
+          width: 313px;
+          padding: 2px 10px 0px 10px;
+          height: 30px;
+          line-height: 30px;
+          border: 0;
+          color: #aaa8a8;
+          font-size: 100%;
+          margin-top: 1px; }
+      .search_box .search .search_bar .search_btn {
+        float: right;
+        width: 38px;
+        height: 38px;
+        border: 0;
+        cursor: pointer;
+        background: url(../images/btn.png) no-repeat;
+        padding: 0; }
+    .search_box .search .search_bg {
+      float: right;
+      position: relative;
+      width: 229px;
+      height: 108px;
+      margin: -10px 0 -20px;
+      background: url(../images/codeznq.png) no-repeat; }
+      .search_box .search .search_bg a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 129px;
+        height: 108px;
+        display: block; }
+
+.nav_box {
+  background: #3a3f4a; }
+  .nav_box .nav {
+    margin: 0 auto;
+    width: 1190px;
+    height: 54px; }
+    .nav_box .nav .game_classify {
+      width: 190px;
+      height: 54px;
+      float: left;
+      background: #f55656;
+      line-height: 54px;
+      font-size: 16px;
+      color: #ff9191;
+      cursor: pointer; }
+      .nav_box .nav .game_classify:hover {
+        color: #fff; }
+      .nav_box .nav .game_classify b {
+        float: left;
+        width: 25px;
+        height: 25px;
+        margin: 14px 10px 0 22px;
+        background: url(../images/icon.png) no-repeat;
+        background-position: 6px -178px; }
+    .nav_box .nav .navBtn {
+      width: 760px;
+      height: 54px;
+      float: left; }
+      .nav_box .nav .navBtn li {
+        float: left;
+        width: 126px;
+        height: 54px;
+        text-align: center;
+        position: relative; }
+        .nav_box .nav .navBtn li a {
+          color: #acb1bb;
+          font-size: 16px;
+          display: block;
+          height: 41px;
+          line-height: 35px;
+          padding-top: 10px;
+          border-bottom: 3px solid #3a3f4a; }
+          .nav_box .nav .navBtn li a:hover {
+            background: #f74a4a;
+            border-bottom: 3px solid #e43333;
+            color: #fff; }
+        .nav_box .nav .navBtn li .new {
+          background: url(../images/newtips.png) no-repeat;
+          position: absolute;
+          top: 21px;
+          left: 99px;
+          width: 20px;
+          height: 9px; }
+    .nav_box .nav .buy_car_box {
+      width: 230px;
+      height: 54px;
+      float: right; }
+      .nav_box .nav .buy_car_box .b_car {
+        height: 30px;
+        padding: 7px 0 4px 0;
+        width: 230px;
+        line-height: 30px;
+        margin-top: 5px;
+        font-size: 16px;
+        text-align: left;
+        background: #f74a4a;
+        color: #fff;
+        border-bottom: 2px solid #e43333;
+        display: block; }
+        .nav_box .nav .buy_car_box .b_car:hover {
+          background: #e43333;
+          border-color: #ce2d2d; }
+        .nav_box .nav .buy_car_box .b_car i {
+          float: right;
+          width: 60px;
+          border-left: 1px solid #e04040;
+          font-weight: 900;
+          text-align: center;
+          font-size: 18px; }
+        .nav_box .nav .buy_car_box .b_car b {
+          float: left;
+          width: 20px;
+          height: 16px;
+          margin: 8px 8px 0 42px;
+          background: url(../images/icon.png) no-repeat;
+          background-position: -60px -20px; }
+
+.banner_box {
+  width: 1190px;
+  margin: 0 auto 20px;
+  height: 330px; }
+  .banner_box .banner_nav {
+    width: 190px;
+    height: 330px;
+    float: left;
+    background: #f55656;
+    position: relative;
+    z-index: 20; }
+    .banner_box .banner_nav dl {
+      width: 190px;
+      height: 66px; }
+      .banner_box .banner_nav dl .active {
+        background: #fff;
+        border-color: #e5e5e5;
+        color: #333; }
+      .banner_box .banner_nav dl dt {
+        width: 189px;
+        height: 64px;
+        font-size: 16px;
+        line-height: 64px;
+        background: #f55656;
+        color: #fff;
+        border: 1px solid #f55656;
+        border-bottom: 1px solid #ee4545;
+        border-right: 0;
+        cursor: pointer;
+        position: relative;
+        box-shadow: 2px 0 0 rgba(0, 0, 0, 0.08); }
+        .banner_box .banner_nav dl dt i {
+          display: block;
+          width: 8px;
+          height: 11px;
+          background: url(../images/icon.png) no-repeat;
+          position: absolute;
+          top: 28px;
+          right: 10px; }
+        .banner_box .banner_nav dl dt b {
+          float: left;
+          width: 25px;
+          height: 25px;
+          margin: 21px 10px 0 22px;
+          background: url(../images/icon.png) no-repeat; }
+      .banner_box .banner_nav dl dd {
+        position: absolute;
+        background: #fff;
+        border: 1px solid #e5e5e5;
+        border-left: 0;
+        padding: 6px 0 7px 0;
+        overflow: hidden;
+        width: 125px;
+        height: 315px;
+        z-index: 20;
+        top: 0;
+        left: 190px;
+        display: none; }
+        .banner_box .banner_nav dl dd .inner {
+          width: 125px;
+          height: 315px; }
+          .banner_box .banner_nav dl dd .inner .dev {
+            float: left; }
+            .banner_box .banner_nav dl dd .inner .dev a {
+              display: block;
+              width: 95px;
+              height: 35px;
+              font-size: 14px;
+              padding: 0 15px;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+              color: #3a3f4a;
+              line-height: 35px; }
+    .banner_box .banner_nav dl:nth-of-type(1) b {
+      background-position: -148px -178px; }
+    .banner_box .banner_nav dl:nth-of-type(1) .active b {
+      background-position: -148px -207px; }
+    .banner_box .banner_nav dl:nth-of-type(1) i {
+      background-position: -178px -178px; }
+    .banner_box .banner_nav dl:nth-of-type(1) .active i {
+      background-position: -178px -207px; }
+    .banner_box .banner_nav dl:nth-of-type(2) b {
+      background-position: -28px -178px; }
+    .banner_box .banner_nav dl:nth-of-type(2) .active b {
+      background-position: -28px -207px; }
+    .banner_box .banner_nav dl:nth-of-type(2) i {
+      background-position: -178px -178px; }
+    .banner_box .banner_nav dl:nth-of-type(2) .active i {
+      background-position: -178px -207px; }
+    .banner_box .banner_nav dl:nth-of-type(3) b {
+      background-position: -60px -178px; }
+    .banner_box .banner_nav dl:nth-of-type(3) .active b {
+      background-position: -60px -207px; }
+    .banner_box .banner_nav dl:nth-of-type(3) i {
+      background-position: -178px -178px; }
+    .banner_box .banner_nav dl:nth-of-type(3) .active i {
+      background-position: -178px -207px; }
+    .banner_box .banner_nav dl:nth-of-type(4) b {
+      background-position: -88px -178px; }
+    .banner_box .banner_nav dl:nth-of-type(4) .active b {
+      background-position: -88px -207px; }
+    .banner_box .banner_nav dl:nth-of-type(4) i {
+      background-position: -178px -178px; }
+    .banner_box .banner_nav dl:nth-of-type(4) .active i {
+      background-position: -178px -207px; }
+    .banner_box .banner_nav dl:nth-of-type(5) b {
+      background-position: -119px -178px; }
+    .banner_box .banner_nav dl:nth-of-type(5) .active b {
+      background-position: -119px -207px; }
+    .banner_box .banner_nav dl:nth-of-type(5) i {
+      background-position: -178px -178px; }
+    .banner_box .banner_nav dl:nth-of-type(5) .active i {
+      background-position: -178px -207px; }
+  .banner_box .slide {
+    width: 770px;
+    height: 330px;
+    overflow: hidden;
+    float: left;
+    position: relative; }
+    .banner_box .slide .pic {
+      width: 4620px;
+      height: 330px;
+      position: absolute;
+      top: 0; }
+      .banner_box .slide .pic .dev {
+        float: left;
+        position: relative;
+        width: 770px;
+        height: 330px; }
+        .banner_box .slide .pic .dev s {
+          display: block;
+          width: 770px;
+          height: 40px;
+          background: #000;
+          opacity: 0.6;
+          position: absolute;
+          bottom: 0;
+          left: 0; }
+        .banner_box .slide .pic .dev p {
+          position: absolute;
+          width: 750px;
+          padding: 0 10px;
+          height: 40px;
+          line-height: 40px;
+          color: #fff;
+          bottom: 0;
+          left: 0; }
+    .banner_box .slide .dot {
+      position: absolute;
+      bottom: 10px;
+      right: 20px;
+      text-align: right; }
+      .banner_box .slide .dot .active {
+        background: #f74a4a; }
+      .banner_box .slide .dot span {
+        display: inline-block;
+        width: 12px;
+        height: 12px;
+        overflow: hidden;
+        background: #fff;
+        margin-left: 6px;
+        cursor: pointer; }
+  .banner_box .info {
+    width: 230px;
+    height: 330px;
+    background: #fff;
+    float: left; }
+    .banner_box .info .person {
+      width: 230px;
+      height: 205px; }
+      .banner_box .info .person .person_index {
+        width: 230px;
+        height: 87px; }
+        .banner_box .info .person .person_index .welcome {
+          width: 210px;
+          height: 56px;
+          margin: 0 5px;
+          padding: 15px 10px;
+          padding-right: 0px;
+          border-bottom: 1px solid #efefef; }
+          .banner_box .info .person .person_index .welcome .user_img {
+            width: 46px;
+            height: 46px;
+            margin-top: 3px;
+            float: left; }
+            .banner_box .info .person .person_index .welcome .user_img img {
+              width: 100%;
+              height: 100%; }
+          .banner_box .info .person .person_index .welcome .gray {
+            color: gray;
+            margin-left: 55px;
+            line-height: 18px; }
+            .banner_box .info .person .person_index .welcome .gray a {
+              color: #1994eb; }
+        .banner_box .info .person .person_index .some_game {
+          padding: 7px 0 10px 10px;
+          margin: 0 5px;
+          height: 100px;
+          width: 210px;
+          overflow: hidden;
+          border-bottom: 1px solid #efefef; }
+          .banner_box .info .person .person_index .some_game h5 {
+            font-weight: 800;
+            line-height: 20px;
+            padding-bottom: 2px;
+            font-size: 100%;
+            color: #3a3f4a; }
+          .banner_box .info .person .person_index .some_game ul {
+            color: #3a3f4a;
+            width: 210px;
+            height: 75px; }
+            .banner_box .info .person .person_index .some_game ul li {
+              float: left;
+              margin: 5px 20px 0 0; }
+              .banner_box .info .person .person_index .some_game ul li a {
+                display: block;
+                width: 50px;
+                height: 70px;
+                text-align: center; }
+                .banner_box .info .person .person_index .some_game ul li a span {
+                  display: block;
+                  line-height: 20px;
+                  height: 20px;
+                  overflow: hidden;
+                  color: #3a3f4a; }
+                .banner_box .info .person .person_index .some_game ul li a:hover span {
+                  color: red;
+                  text-decoration: underline; }
+            .banner_box .info .person .person_index .some_game ul img {
+              display: block; }
+    .banner_box .info .note_list {
+      width: 210px;
+      height: 108px;
+      padding: 7px 0 10px 10px;
+      margin: 0 5px;
+      overflow: hidden; }
+      .banner_box .info .note_list div {
+        width: 210px;
+        height: 22px; }
+        .banner_box .info .note_list div h5 {
+          float: left;
+          font-weight: 800;
+          line-height: 20px;
+          padding-bottom: 2px;
+          font-size: 100%; }
+        .banner_box .info .note_list div a {
+          float: right;
+          width: 45px;
+          color: #666;
+          height: 22px; }
+          .banner_box .info .note_list div a:hover {
+            text-decoration: underline; }
+      .banner_box .info .note_list ul {
+        width: 210px;
+        height: 88px; }
+        .banner_box .info .note_list ul li {
+          line-height: 22px;
+          height: 22px;
+          overflow: hidden;
+          float: left; }
+          .banner_box .info .note_list ul li a {
+            color: #666;
+            float: left;
+            width: 160px;
+            height: 22px;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+            .banner_box .info .note_list ul li a:hover {
+              text-decoration: underline; }
+          .banner_box .info .note_list ul li i {
+            float: right;
+            width: 40px;
+            font-style: normal;
+            color: #999;
+            text-align: left; }
+
+.zone1_box {
+  width: 1190px;
+  height: 324px;
+  margin: 0 auto 20px; }
+  .zone1_box .hot_sell {
+    width: 950px;
+    float: left;
+    color: #3a3f4a;
+    height: 324px; }
+    .zone1_box .hot_sell .sell_title {
+      height: 24px;
+      line-height: 24px;
+      margin-bottom: 10px; }
+      .zone1_box .hot_sell .sell_title b {
+        margin-right: 3px;
+        width: 26px;
+        height: 24px;
+        float: left;
+        background: url(../images/icon.png) no-repeat;
+        background-position: -30px -73px; }
+      .zone1_box .hot_sell .sell_title em {
+        font-size: 18px; }
+    .zone1_box .hot_sell .items_bg {
+      width: 960px;
+      height: 290px; }
+      .zone1_box .hot_sell .items_bg dl {
+        float: left;
+        padding: 22px 30px;
+        line-height: 22px;
+        width: 256px;
+        height: 100px;
+        border-right: 1px solid #f3f4f6;
+        border-bottom: 1px solid #f3f4f6;
+        position: relative;
+        background: #fff; }
+        .zone1_box .hot_sell .items_bg dl dt {
+          float: left;
+          margin-top: 10px; }
+          .zone1_box .hot_sell .items_bg dl dt img {
+            display: block;
+            width: 80px;
+            height: 67px; }
+        .zone1_box .hot_sell .items_bg dl dd {
+          margin-left: 94px;
+          color: #3a3f4a; }
+          .zone1_box .hot_sell .items_bg dl dd p {
+            height: 22px;
+            overflow: hidden; }
+            .zone1_box .hot_sell .items_bg dl dd p b {
+              font-weight: 600; }
+            .zone1_box .hot_sell .items_bg dl dd p .click:hover {
+              color: red;
+              text-decoration: underline; }
+            .zone1_box .hot_sell .items_bg dl dd p i {
+              font-weight: 600;
+              color: red; }
+          .zone1_box .hot_sell .items_bg dl dd .btn_stream {
+            line-height: 26px;
+            height: 25px;
+            width: 90px;
+            margin-top: 4px;
+            display: inline-block;
+            background: #f74a4a;
+            color: #fff;
+            border-bottom: 2px solid #e43333;
+            text-align: center; }
+            .zone1_box .hot_sell .items_bg dl dd .btn_stream:hover {
+              background: #e43333;
+              border-color: #ce2d2d; }
+  .zone1_box .eve_surprise {
+    width: 230px;
+    height: 324px;
+    color: #3a3f4a;
+    float: right; }
+    .zone1_box .eve_surprise .eve_title {
+      height: 24px;
+      line-height: 24px;
+      margin-bottom: 10px; }
+      .zone1_box .eve_surprise .eve_title b {
+        margin-right: 3px;
+        width: 26px;
+        height: 24px;
+        float: left;
+        background: url(../images/icon.png) no-repeat;
+        background-position: -60px -73px; }
+      .zone1_box .eve_surprise .eve_title em {
+        font-size: 18px; }
+    .zone1_box .eve_surprise .items_eve {
+      width: 230px;
+      height: 290px;
+      background: #fff; }
+      .zone1_box .eve_surprise .items_eve dl {
+        width: 190px;
+        height: 280px;
+        margin: 0 auto;
+        padding-top: 10px;
+        line-height: 22px;
+        position: relative; }
+        .zone1_box .eve_surprise .items_eve dl dt a img {
+          display: block;
+          width: 190px;
+          height: 162px;
+          margin-bottom: 5px; }
+        .zone1_box .eve_surprise .items_eve dl dd .line_1 {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          color: #3a3f4a; }
+          .zone1_box .eve_surprise .items_eve dl dd .line_1 b {
+            font-weight: bold; }
+        .zone1_box .eve_surprise .items_eve dl dd .red {
+          color: #f74a4a; }
+          .zone1_box .eve_surprise .items_eve dl dd .red b {
+            font-weight: bold; }
+        .zone1_box .eve_surprise .items_eve dl dd .time_count .left_time .num_bg {
+          font-weight: 900;
+          color: #fff;
+          padding: 0 5px;
+          border-radius: 2px;
+          background: #7f8b99;
+          margin: 0 3px; }
+        .zone1_box .eve_surprise .items_eve dl dd .sp_btn {
+          width: 190px;
+          height: 25px;
+          line-height: 26px;
+          margin-top: 7px;
+          display: inline-block;
+          background: #f74a4a;
+          color: #fff;
+          border-bottom: 2px solid #e43333;
+          text-align: center;
+          cursor: pointer; }
+          .zone1_box .eve_surprise .items_eve dl dd .sp_btn:hover {
+            background: #e43333;
+            border-color: #ce2d2d; }
+        .zone1_box .eve_surprise .items_eve dl .bg_sp {
+          position: absolute;
+          top: 5px;
+          left: -10px;
+          width: 23px;
+          height: 69px;
+          color: #fff;
+          line-height: 15px;
+          text-align: center;
+          font-weight: 800;
+          font-size: 14px;
+          padding-top: 2px;
+          background: url(../images/bg.png) no-repeat;
+          background-position: -60px -160px; }
+
+.zone2_box {
+  margin: 0 auto 20px;
+  width: 1190px;
+  height: 250px; }
+  .zone2_box .favorite {
+    width: 950px;
+    height: 250px;
+    float: left;
+    overflow: hidden; }
+    .zone2_box .favorite .favorite_title {
+      height: 24px;
+      line-height: 24px;
+      margin-bottom: 10px; }
+      .zone2_box .favorite .favorite_title b {
+        margin-right: 3px;
+        float: left;
+        width: 26px;
+        height: 24px;
+        background: url(../images/icon.png) no-repeat;
+        background-position: 0 -73px; }
+      .zone2_box .favorite .favorite_title em {
+        font-size: 18px;
+        color: #3a3f4a; }
+      .zone2_box .favorite .favorite_title span {
+        margin: 0 12px;
+        font-size: 14px;
+        line-height: 14px;
+        color: #e3e3e3; }
+      .zone2_box .favorite .favorite_title a {
+        color: #1994eb; }
+    .zone2_box .favorite .favorite_bg {
+      width: 960px;
+      height: 216px;
+      color: #3a3f4a;
+      background: #fff; }
+      .zone2_box .favorite .favorite_bg .item_bg {
+        width: 960px;
+        height: 216px; }
+        .zone2_box .favorite .favorite_bg .item_bg dl {
+          width: 122px;
+          height: 160px;
+          padding: 28px 34px;
+          border-left: 1px solid #f3f4f6;
+          float: left; }
+          .zone2_box .favorite .favorite_bg .item_bg dl dt a img {
+            display: block;
+            width: 90px;
+            height: 75px;
+            margin: 10px auto 10px auto; }
+          .zone2_box .favorite .favorite_bg .item_bg dl dd {
+            text-align: center;
+            color: #3a3f4a; }
+            .zone2_box .favorite .favorite_bg .item_bg dl dd .item_info {
+              height: 40px;
+              overflow: hidden; }
+              .zone2_box .favorite .favorite_bg .item_bg dl dd .item_info a {
+                color: #3a3f4a; }
+                .zone2_box .favorite .favorite_bg .item_bg dl dd .item_info a b {
+                  display: block;
+                  font-weight: 900; }
+                .zone2_box .favorite .favorite_bg .item_bg dl dd .item_info a:hover {
+                  color: red;
+                  text-decoration: underline; }
+            .zone2_box .favorite .favorite_bg .item_bg dl dd .red {
+              height: 20px;
+              overflow: hidden;
+              color: #f74a4a; }
+              .zone2_box .favorite .favorite_bg .item_bg dl dd .red b {
+                font-weight: 900; }
+  .zone2_box .sign_up {
+    width: 230px;
+    height: 250px;
+    float: right;
+    color: #3a3f4a;
+    position: relative; }
+    .zone2_box .sign_up .sign_title {
+      height: 24px;
+      line-height: 24px;
+      margin-bottom: 10px; }
+      .zone2_box .sign_up .sign_title b {
+        float: left;
+        width: 26px;
+        height: 24px;
+        background: url(../images/icon.png) no-repeat;
+        background-position: 0 -73px; }
+      .zone2_box .sign_up .sign_title em {
+        font-size: 18px;
+        color: #3a3f4a; }
+    .zone2_box .sign_up .sign_bg {
+      padding: 20px;
+      width: 190px;
+      height: 176px;
+      background: #fff; }
+      .zone2_box .sign_up .sign_bg a {
+        width: 190px;
+        height: 77px;
+        border-bottom-width: 6px;
+        font-size: 18px;
+        line-height: 77px;
+        text-align: left;
+        margin-top: 15px;
+        display: inline-block;
+        background: #f74a4a;
+        color: #fff;
+        border-bottom: 2px solid #e43333; }
+        .zone2_box .sign_up .sign_bg a b {
+          background: url(../images/icon.png) no-repeat;
+          float: left;
+          width: 27px;
+          height: 26px;
+          background-position: -140px -137px;
+          margin: 27px 10px 0 38px; }
+      .zone2_box .sign_up .sign_bg .tip {
+        padding: 10px 0;
+        margin-bottom: 10px;
+        text-align: center;
+        color: #3a3f4a; }
+        .zone2_box .sign_up .sign_bg .tip p {
+          margin-bottom: 5px; }
+    .zone2_box .sign_up .app_box {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 230px;
+      height: 216px;
+      z-index: 20;
+      background: #fff;
+      display: none; }
+      .zone2_box .sign_up .app_box img {
+        margin: 10px auto 0;
+        width: 180px;
+        height: 180px;
+        display: block;
+        border: 0; }
+      .zone2_box .sign_up .app_box .code_tip {
+        text-align: center;
+        font-size: 13px;
+        color: #333; }
+
+.zone3_box {
+  margin: 0 auto 20px;
+  width: 1190px;
+  height: 360px; }
+  .zone3_box .event_title {
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 10px; }
+    .zone3_box .event_title a {
+      color: #1994eb;
+      float: right; }
+    .zone3_box .event_title b {
+      display: block;
+      float: left;
+      margin-right: 3px;
+      width: 26px;
+      height: 24px;
+      background: url(../images/icon.png) no-repeat;
+      background-position: -90px -73px; }
+    .zone3_box .event_title em {
+      font-size: 18px;
+      color: #3a3f4a; }
+  .zone3_box .event_list {
+    height: 326px;
+    width: 1190px;
+    background: #fff; }
+    .zone3_box .event_list ul {
+      padding: 10px 0 0 10px;
+      height: 100%; }
+      .zone3_box .event_list ul li {
+        float: left;
+        width: 383px;
+        margin-right: 10px;
+        height: 158px;
+        overflow: hidden;
+        display: block; }
+
+.zone4_box {
+  margin: 0 auto 20px;
+  width: 1190px;
+  height: 338px; }
+  .zone4_box .lol_title {
+    height: 24px;
+    line-height: 24px;
+    margin-bottom: 10px; }
+    .zone4_box .lol_title a {
+      color: #1994eb;
+      float: right; }
+    .zone4_box .lol_title b {
+      display: block;
+      float: left;
+      margin-right: 3px;
+      width: 26px;
+      height: 24px;
+      background: url(../images/icon.png) no-repeat;
+      background-position: -120px -73px; }
+    .zone4_box .lol_title em {
+      font-size: 18px;
+      color: #3a3f4a; }
+  .zone4_box .lol_bg {
+    background: #fff;
+    color: #3a3f4a;
+    width: 1190px;
+    height: 304px; }
+    .zone4_box .lol_bg .lol_pic {
+      width: 240px;
+      height: 304px;
+      overflow: hidden;
+      float: left; }
+    .zone4_box .lol_bg .lol_list {
+      width: 764px;
+      height: 304px;
+      float: left;
+      overflow: hidden; }
+      .zone4_box .lol_bg .lol_list .list_top {
+        width: 764px;
+        height: 204px; }
+        .zone4_box .lol_bg .lol_list .list_top li {
+          float: left;
+          border-right: 1px solid #f3f4f6;
+          width: 190px;
+          height: 204px;
+          overflow: hidden;
+          position: relative; }
+          .zone4_box .lol_bg .lol_list .list_top li a {
+            display: block;
+            width: 148px;
+            height: 163px;
+            padding: 20px;
+            border-bottom: 1px solid #f3f4f6;
+            line-height: 20px;
+            position: absolute; }
+            .zone4_box .lol_bg .lol_list .list_top li a span {
+              display: block;
+              height: 20px;
+              overflow: hidden;
+              text-overflow: ellipsis; }
+            .zone4_box .lol_bg .lol_list .list_top li a strong {
+              font-size: 16px;
+              font-weight: 800; }
+            .zone4_box .lol_bg .lol_list .list_top li a .name {
+              padding-bottom: 3px; }
+            .zone4_box .lol_bg .lol_list .list_top li a .red {
+              color: #f74a4a; }
+              .zone4_box .lol_bg .lol_list .list_top li a .red b {
+                font-weight: bold; }
+            .zone4_box .lol_bg .lol_list .list_top li a img {
+              width: 90px;
+              height: 75px;
+              display: block;
+              margin-top: 10px; }
+      .zone4_box .lol_bg .lol_list .list_bot {
+        widows: 764px;
+        height: 100px; }
+        .zone4_box .lol_bg .lol_list .list_bot li {
+          float: left;
+          border-right: 1px solid #f3f4f6;
+          width: 170px;
+          height: 60px;
+          padding: 20px 0px 20px 20px;
+          line-height: 20px; }
+          .zone4_box .lol_bg .lol_list .list_bot li a img {
+            float: left;
+            width: 60px;
+            height: 50px; }
+          .zone4_box .lol_bg .lol_list .list_bot li p {
+            height: 20px;
+            overflow: hidden;
+            text-overflow: ellipsis; }
+            .zone4_box .lol_bg .lol_list .list_bot li p a {
+              color: #3a3f4a; }
+              .zone4_box .lol_bg .lol_list .list_bot li p a:hover {
+                color: red;
+                text-decoration: underline; }
+          .zone4_box .lol_bg .lol_list .list_bot li b {
+            font-weight: bold; }
+          .zone4_box .lol_bg .lol_list .list_bot li .txt {
+            margin-left: 70px;
+            color: #3a3f4a; }
+            .zone4_box .lol_bg .lol_list .list_bot li .txt .red {
+              color: #f74a4a; }
+    .zone4_box .lol_bg .list_rank {
+      width: 186px;
+      float: right;
+      color: #3a3f4a;
+      height: 303px; }
+      .zone4_box .lol_bg .list_rank p {
+        white-space: nowrap;
+        width: 88px;
+        overflow: hidden;
+        text-overflow: ellipsis; }
+      .zone4_box .lol_bg .list_rank .rank_wall {
+        width: 186px;
+        height: 303px; }
+        .zone4_box .lol_bg .list_rank .rank_wall dd {
+          height: 43px;
+          border-top: 1px solid #f3f4f6;
+          padding: 5px 5px 5px 0; }
+          .zone4_box .lol_bg .list_rank .rank_wall dd b {
+            background: url(../images/icon.png) no-repeat;
+            float: left;
+            width: 20px;
+            height: 24px;
+            background-position: -20px -300px;
+            font-style: normal;
+            color: #fff;
+            text-align: center;
+            line-height: 20px; }
+          .zone4_box .lol_bg .list_rank .rank_wall dd img {
+            float: right;
+            width: 40px;
+            height: 34px;
+            margin-top: 1px; }
+        .zone4_box .lol_bg .list_rank .rank_wall .txt {
+          float: left;
+          width: 88px;
+          margin: 0 0 0 10px;
+          display: block; }
+          .zone4_box .lol_bg .list_rank .rank_wall .txt p a {
+            color: #3a3f4a; }
+            .zone4_box .lol_bg .list_rank .rank_wall .txt p a:hover {
+              color: red;
+              text-decoration: underline; }
+          .zone4_box .lol_bg .list_rank .rank_wall .txt .red {
+            color: #f74a4a; }
+            .zone4_box .lol_bg .list_rank .rank_wall .txt .red i {
+              font-weight: 900; }
+        .zone4_box .lol_bg .list_rank .rank_wall .top {
+          padding-top: 20px;
+          height: 62px;
+          border-top: 0; }
+          .zone4_box .lol_bg .list_rank .rank_wall .top b {
+            background: url(../images/icon.png) no-repeat;
+            height: 53px;
+            background-position: 0 -300px;
+            line-height: 16px;
+            float: left;
+            width: 20px;
+            font-style: normal;
+            color: #fff;
+            text-align: center; }
+          .zone4_box .lol_bg .list_rank .rank_wall .top img {
+            width: 60px;
+            height: 50px; }
+
+.zone5_box {
+  width: 1190px;
+  height: 146px;
+  overflow: hidden;
+  margin: 0 auto; }
+  .zone5_box .act_bot {
+    width: 1200px; }
+    .zone5_box .act_bot li {
+      float: left;
+      margin-right: 10px; }
+      .zone5_box .act_bot li img {
+        display: block;
+        width: 390px;
+        height: 146px;
+        border: 0; }
+
+.foot_box {
+  background: #3b3f4a;
+  margin-top: 40px;
+  min-width: 1280px; }
+  .foot_box a:hover {
+    text-decoration: underline; }
+  .foot_box .qa_box {
+    padding: 25px 0 33px 28px;
+    width: 1252px;
+    margin: 0 auto;
+    height: 150px; }
+    .foot_box .qa_box .qa:nth-of-type(1) .qa_title s {
+      background-position: 0 -136px; }
+    .foot_box .qa_box .qa:nth-of-type(2) .qa_title s {
+      background-position: -32px -136px; }
+    .foot_box .qa_box .qa:nth-of-type(3) .qa_title s {
+      background-position: -63px -136px; }
+    .foot_box .qa_box .qa:nth-of-type(4) .qa_title s {
+      background-position: -95px -136px; }
+    .foot_box .qa_box .qa {
+      width: 226px;
+      float: left;
+      border-right: 1px solid #444853;
+      height: 150px; }
+      .foot_box .qa_box .qa .qa_title {
+        font: normal 16px/32px "Microsoft YaHei";
+        color: #acb1bb; }
+        .foot_box .qa_box .qa .qa_title s {
+          background: url(../images/icon.png) no-repeat;
+          float: left;
+          margin: 0 10px 0 24px;
+          width: 32px;
+          height: 32px; }
+      .foot_box .qa_box .qa ul {
+        margin-left: 65px; }
+        .foot_box .qa_box .qa ul li {
+          width: 100px;
+          height: 24px;
+          line-height: 24px;
+          display: block;
+          overflow: hidden; }
+          .foot_box .qa_box .qa ul li a {
+            color: #acb1bb;
+            font-size: 12px; }
+    .foot_box .qa_box .last {
+      border-right: 0;
+      width: 298px;
+      float: left;
+      height: 150px;
+      color: #3a3f4a; }
+      .foot_box .qa_box .last ul {
+        margin-left: 12px; }
+        .foot_box .qa_box .last ul li {
+          float: left;
+          margin-left: 40px;
+          width: 100px;
+          height: auto;
+          line-height: 24px;
+          display: block;
+          overflow: hidden; }
+          .foot_box .qa_box .last ul li .foot_code {
+            margin-bottom: 18px;
+            width: 100px;
+            height: 100px; }
+          .foot_box .qa_box .last ul li .code_name {
+            text-align: center;
+            font-size: 16px;
+            color: #a4abb4;
+            line-height: 18px; }
+  .foot_box .foot_wrap {
+    margin: 0 auto;
+    width: 1280px; }
+    .foot_box .foot_wrap .foot_ied {
+      background: #3b3f4a;
+      padding: 30px 0 60px 0;
+      text-align: center;
+      line-height: 19px;
+      font-size: 12px;
+      border-top: 1px solid #444853;
+      color: #81858f; }
+      .foot_box .foot_wrap .foot_ied .wrap_ied {
+        color: #81858f;
+        text-align: center;
+        line-height: 19px;
+        font-size: 12px; }
+        .foot_box .foot_wrap .foot_ied .wrap_ied a {
+          color: #81858f; }
